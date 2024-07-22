@@ -4,7 +4,7 @@ import Logo from '../ImgImagens/Logo.svg'
 import './HeaderGeral.css'
 
 export default function HeaderGeral(){
-    const url = "/Curriculo.pdf"
+    const url = "/public/Curriculo.pdf"
     return(
         <header className='HeaderGeral'>
             <Images url={Logo} link="" description="Imagem Aleatoria"/>
