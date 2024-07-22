@@ -41,6 +41,7 @@
 
     & img{
         height: calc(3em + 18vw);
+        width: auto;
         border-radius: 50%;
     }
 }

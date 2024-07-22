@@ -1,6 +1,7 @@
 import Buttons from '../Buttons/Buttons'
 import Images from '../Images/Images'
 import './IntroductionMy.css'
+import MinhaFoto from '../ImgImagens/MinhaFoto.jpg'
 
 export default function IntroductionMy(){
     return(
@@ -14,7 +15,7 @@ export default function IntroductionMy(){
                     <Images url="https://as2.ftcdn.net/v2/jpg/02/50/30/59/1000_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg" description="Github" link="https://github.com/FilipeDev-PT"/>
                 </div>
             </div>
-            <Images url="https://us-tuna-sounds-images.voicemod.net/ad447514-1b49-446e-8b97-e624bbafe1a5-1718038034259.png" decription="Miha Foto"/>
+            <Images url={MinhaFoto} decription="Miha Foto"/>
         </div>
     )
 }
