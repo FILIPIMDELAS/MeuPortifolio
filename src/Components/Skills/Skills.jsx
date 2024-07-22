@@ -3,7 +3,7 @@ import './Skills.css'
 
 export default function Skills(){
     return(
-        <div className='Skills'>
+        <div className='Skills' id='Skills'>
             <h4>Skills</h4>
             <div className='Img'>
                 <Images url="https://cdn.icon-icons.com/icons2/112/PNG/512/html5_18891.png" description="Icone HTML5"/>

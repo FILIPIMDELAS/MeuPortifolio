@@ -3,7 +3,7 @@ import './FooterGeral.css'
 
 export default function FooterGeral(){
     return(
-        <footer className='FooterGeral'>
+        <footer className='FooterGeral' id='FooterGeral'>
             <h3>CONTATOS</h3>
             <div>
                 <div>

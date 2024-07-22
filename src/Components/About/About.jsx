@@ -2,7 +2,7 @@ import './About.css'
 
 export default function About(){
     return(
-        <div className='AboutMe'>
+        <div className='AboutMe' id='AboutMe'>
             <div className='RightTape'></div>
             <div className='ContentAbout'>
                 <h4>Quem Eu Sou?</h4>

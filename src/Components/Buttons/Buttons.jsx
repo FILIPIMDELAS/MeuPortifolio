@@ -4,7 +4,7 @@ import './Buttons.css'
 export default function Buttons({ conteudo, link }){
     return (
         link ?
-        <a href={link} target='_blank'><button className='Buttons'>{conteudo}</button></a>
+        <a href={link}><button className='Buttons'>{conteudo}</button></a>
         :
         <button className='Buttons'>{conteudo}</button>
     )
