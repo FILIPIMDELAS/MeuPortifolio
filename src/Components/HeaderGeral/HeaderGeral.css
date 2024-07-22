@@ -22,7 +22,7 @@
         gap: 1.8vw;
 
         .buttonCurriculo{
-            background-color: blue;
+            background-color: var(--colorPrimaryColorful);
             color: var(--colorPrymaryDark);
             font-size: calc(.4em + .5vw);
             font-weight: bold;
