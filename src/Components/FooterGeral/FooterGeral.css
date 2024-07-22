@@ -1,0 +1,45 @@
+.FooterGeral{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    max-width: 1500px;
+    height: auto;
+    background-color: var(--colorSecundaryBlack);
+    align-items: center;
+    padding: 2% 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px var(--colorSecundaryBlack);
+
+    & h3{
+        font-size: calc(.7em + 1.3vw);
+        color: var(--colorPrimaryColorful);
+        font-weight: 200;
+        letter-spacing: .2em;
+    }
+
+    & div{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+
+        & div{
+            display: flex;
+            width: 30%;
+            min-width: 150px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2%;
+
+            & img{
+                height: calc(.4em + 1.8vw);
+            }
+
+            & h6{
+                font-size: calc(.4em + .9vw);
+                color: var(--colorPrimaryLight);
+                margin-left: 2%;
+            }
+        }
+    }
+}

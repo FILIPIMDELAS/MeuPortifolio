@@ -1,0 +1,42 @@
+[data-theme="Dark"]{
+  --colorPrimaryBlack: #1C1C1C;
+  --colorSecundaryBlack: #222222;
+  --colorPrimaryLight: #A19D99;
+  --colorSecundaryLight: #838383;
+  --colorPrimaryColorful: #EBAF15;
+  --colorSecundaryColorful: #85630C;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: Montserraf;
+}
+
+body{
+  display: flex;
+  width: 98dvw;
+  height: auto;
+  background-color: var(--colorPrimaryBlack);
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.divProjects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h1{
+    color: var(--colorPrimaryColorful);
+    font-size: calc(1em + 3vw);
+    margin: 8% auto -4% 20%;
+  }
+}

@@ -1,0 +1,12 @@
+.Buttons{
+    background-color: #00000000;
+    color: var(--colorPrimaryLight);
+    font-size: calc(.7em + .6vw);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Buttons:hover{
+    scale: 1.05;
+    color: var(--colorPrimaryColorful);
+}

@@ -1,0 +1,68 @@
+.Projects{
+    display: flex;
+    width: 80%;
+    padding: 0px .4%;
+    height: auto;
+    align-items: center;
+    max-width: 1300px;
+    border-radius: 5px;
+    background-color: var(--colorSecundaryBlack);
+    box-shadow: 2px 2px 20px var(--colorSecundaryBlack);
+    margin-top: 5%;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+    & .iconImg{
+        position: absolute;
+        top: 5%;
+        right: 1%;
+
+        & img{
+            height: calc(.7em + 1.3vw)
+        }
+    }
+
+    .imgDoProjeto{
+        height: 95%;
+        width: 49%;
+        background-color: var(--colorSecundaryLight);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .ContentProjeto{
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+        margin: 2% 0px 2% 3%;
+
+        & h3{
+            color: var(--colorPrimaryLight);
+            font-size: calc(1em + 1vw);
+            margin-left: 5%;
+        }
+
+        & p{
+            text-indent: calc(1em + 1vw);
+            color: var(--colorPrimaryLight);
+            font-size: calc(.4em + .8vw);
+            margin: 2% 0px;
+        }
+
+        .ButtonsProjects{
+            display: flex;
+            gap: 5%;
+            margin-top: 5%;
+
+            & button{
+                background-color: var(--colorPrimaryColorful);
+                padding: 4px 10px;
+                border-radius: 5px;
+                color: var(--colorPrimaryBlack);
+                font-weight: 500;
+                font-size: calc(.4em + 1vw);
+            }
+        }
+    }
+}

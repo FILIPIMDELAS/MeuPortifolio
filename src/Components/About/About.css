@@ -1,0 +1,44 @@
+.AboutMe{
+    display: flex;
+    height: auto;
+    width: 85%;
+    max-width: 1500px;
+    padding: 0px 5%;
+    background-color: var(--colorSecundaryBlack);
+    box-shadow: var(--colorSecundaryBlack);
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px var(--colorSecundaryBlack);
+}
+
+.RightTape{
+    background-color: var(--colorPrimaryColorful);
+    height: 100%;
+    width: 3%;
+    margin: auto auto auto -4%;
+}
+
+.ContentAbout{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+    & h4{
+        color: var(--colorPrimaryColorful);
+        font-size: calc(1.2em + 1vw);
+        margin-bottom: 1%;
+    }
+
+    & p{
+        text-indent: calc(1em + 1vw);
+        color: var(--colorPrimaryLight);
+        font-size: calc(.5em + 1vw);
+    }
+}
+
+.LeftTape{
+    background-color: var(--colorPrimaryColorful);
+    height: 100%;
+    width: 3%;
+    margin: auto -4% auto auto;
+}
