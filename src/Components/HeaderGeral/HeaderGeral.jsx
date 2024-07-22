@@ -13,6 +13,7 @@ export default function HeaderGeral(){
                 <Buttons conteudo="Skills"/>
                 <Buttons conteudo="Projetos"/>
                 <Buttons conteudo="Contatos"/>
+                <button className='buttonCurriculo'>Curriculo</button>
             </div>
         </header>
     )

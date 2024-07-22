@@ -39,14 +39,14 @@
 
         & h3{
             color: var(--colorPrimaryLight);
-            font-size: calc(1em + 1vw);
+            font-size: calc(.9em + 1vw);
             margin-left: 5%;
         }
 
         & p{
             text-indent: calc(1em + 1vw);
             color: var(--colorPrimaryLight);
-            font-size: calc(.4em + .8vw);
+            font-size: calc(.3em + .8vw);
             margin: 2% 0px;
         }
 
@@ -61,7 +61,7 @@
                 border-radius: 5px;
                 color: var(--colorPrimaryBlack);
                 font-weight: 500;
-                font-size: calc(.4em + 1vw);
+                font-size: calc(.3em + 1vw);
             }
         }
     }

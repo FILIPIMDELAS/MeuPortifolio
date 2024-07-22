@@ -20,5 +20,19 @@
     .divButonsHeader{
         display: flex;
         gap: 1.8vw;
+
+        .buttonCurriculo{
+            background-color: var(--colorPrimaryColorful);
+            color: var(--colorPrymaryDark);
+            font-size: calc(.4em + .5vw);
+            font-weight: bold;
+            cursor: pointer;
+            padding: 2%;
+            border-radius: 5px;
+        }
+
+        .buttonCurriculo:hover{
+            scale: 1.05;
+        }
     }
 }

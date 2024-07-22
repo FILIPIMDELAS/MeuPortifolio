@@ -25,14 +25,14 @@
 
     & h4{
         color: var(--colorPrimaryColorful);
-        font-size: calc(1.2em + 1vw);
+        font-size: calc(1em + 1vw);
         margin-bottom: 1%;
     }
 
     & p{
         text-indent: calc(1em + 1vw);
         color: var(--colorPrimaryLight);
-        font-size: calc(.5em + 1vw);
+        font-size: calc(.4em + .9vw);
     }
 }
 

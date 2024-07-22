@@ -1,7 +1,7 @@
 .Buttons{
     background-color: #00000000;
     color: var(--colorPrimaryLight);
-    font-size: calc(.7em + .6vw);
+    font-size: calc(.4em + .5vw);
     font-weight: bold;
     cursor: pointer;
 }

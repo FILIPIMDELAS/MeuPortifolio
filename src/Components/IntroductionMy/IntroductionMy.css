@@ -12,12 +12,12 @@
     align-items: center;
 
     & h6{
-        font-size: calc(0.8em + 1vw);
+        font-size: calc(0.7em + .9vw);
         color: var(--colorPrimaryLight);
     }
 
     & h1{
-        font-size: calc(2em + 4vw);
+        font-size: calc(1.5em + 3.5vw);
         color: var(--colorPrimaryColorful);
     }
     
@@ -26,7 +26,7 @@
         background-color: var(--colorPrimaryColorful);
         color: var(--colorPrimaryBlack);
         font-weight: bolder;
-        font-size: calc(1em + .4vw);
+        font-size: calc(.8em + .4vw);
         border-radius: 5px;
     }
 
