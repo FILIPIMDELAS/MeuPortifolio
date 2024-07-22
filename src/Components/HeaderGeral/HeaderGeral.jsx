@@ -4,7 +4,7 @@ import Logo from '../ImgImagens/Logo.svg'
 import './HeaderGeral.css'
 
 export default function HeaderGeral(){
-    const url = "https://github.com/FILIPIMDELAS/MeuPortifolio/blob/main/public/Curriculo.pdf"
+    const url = "https://drive.google.com/file/d/1kZQokux8rcKP4bQLJv6T6HbLC_JPaoyC/view?usp=drive_link"
     return(
         <header className='HeaderGeral'>
             <Images url={Logo} link="" description="Imagem Aleatoria"/>

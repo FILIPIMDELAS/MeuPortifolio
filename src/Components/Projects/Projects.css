@@ -2,7 +2,8 @@
     display: flex;
     width: 80%;
     padding: 0px .4%;
-    height: auto;
+    height: 5%;
+    max-height: 300px;
     align-items: center;
     max-width: 1300px;
     border-radius: 5px;
@@ -14,18 +15,23 @@
     align-items: center;
 
     & .iconImg{
+        display: flex;
         position: absolute;
         top: 5%;
         right: 1%;
+        justify-content: end;
+        width: 20%;
 
         & img{
-            height: calc(.7em + 1.3vw)
+            height: calc(.4em + .9vw);
+            margin-left: 1%;
         }
     }
 
     .imgDoProjeto{
-        height: 95%;
-        width: 49%;
+        width: 48%;
+        min-width: 100px;
+        height: 15vw;
         background-color: var(--colorSecundaryLight);
         border-radius: 5px;
         overflow: hidden;
@@ -46,7 +52,7 @@
         & p{
             text-indent: calc(1em + 1vw);
             color: var(--colorPrimaryLight);
-            font-size: calc(.3em + .8vw);
+            font-size: calc(.2em + .7vw);
             margin: 2% 0px;
         }
 
@@ -57,12 +63,22 @@
 
             & button{
                 background-color: var(--colorPrimaryColorful);
-                padding: 4px 10px;
+                padding: calc(.3em + .2vw) calc(.2em + .3vw);
                 border-radius: 5px;
                 color: var(--colorPrimaryBlack);
                 font-weight: 500;
-                font-size: calc(.3em + 1vw);
+                font-size: calc(.3em + .7vw);
             }
+        }
+    }
+}
+
+@media screen and (max-width: 390px){
+    .Projects{
+        width: 90%;
+
+        .imgDoProjeto{
+            height: 26vw;
         }
     }
 }

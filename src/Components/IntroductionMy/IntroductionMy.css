@@ -20,18 +20,23 @@
         font-size: calc(1.5em + 3.5vw);
         color: var(--colorPrimaryColorful);
     }
-    
-    & button{
-        padding: 0.4vw;
-        background-color: var(--colorPrimaryColorful);
-        color: var(--colorPrimaryBlack);
-        font-weight: bolder;
-        font-size: calc(.8em + .4vw);
-        border-radius: 5px;
-    }
 
-    & button:hover{
-        color: var(--colorPrimaryBlack);
+    & a{
+        justify-content: start;
+        width: 20%;
+
+        & button{
+            padding: 0.4vw;
+            background-color: var(--colorPrimaryColorful);
+            color: var(--colorPrimaryBlack);
+            font-weight: bolder;
+            font-size: calc(.8em + .4vw);
+            border-radius: 5px;
+        }
+    
+        & button:hover{
+            color: var(--colorPrimaryBlack);
+        }   
     }
 
     & img{
@@ -42,8 +47,13 @@
 
 .ImgSocialMidias{
     display: flex;
+    justify-content: start;
     margin: 2% 2% 0px 0px;
     gap: 2%;
+
+    & a{
+        width: auto;
+    }
 
     & img{
         height: calc(1em + 1vw);
